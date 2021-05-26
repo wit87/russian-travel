@@ -1,0 +1,34 @@
+.cover__background {
+    max-width: 1184px;
+    max-height: 740px;
+    width: 100%;
+    height: 62.5vw;
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(../../../images/cover/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    text-decoration-line: none;
+    color: #fff;
+}
+
+.cover__background::before {
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.cover__background:hover::before {
+    opacity: 0.8;
+}
