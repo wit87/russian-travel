@@ -12,4 +12,4 @@
 **Картинки**
 
 
-[Готовый сойт](https://wit87.github.io/russian-travel/)
+[Готовый сайт](https://wit87.github.io/russian-travel/)
